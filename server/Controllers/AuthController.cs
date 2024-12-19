@@ -9,7 +9,7 @@ public class AuthController : ControllerBase
 {
   private readonly AppDbContext _context;
   private readonly IHttpClientFactory _clientFactory;
-  private const string RECAPTCHA_SECRET_KEY = "6LdZomgqAAAAAKEeJ9gpX-qawTyF7ilX39mkJc9e";
+  private const string RECAPTCHA_SECRET_KEY = "";
   public AuthController(AppDbContext context, IHttpClientFactory clientFactory)
   {
     _context = context;
